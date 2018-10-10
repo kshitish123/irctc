@@ -33,12 +33,12 @@
         <repository>
             <id>nexus</id>
             <name>Internal Releases</name>
-            <url>http://104.196.96.244:8081/repository/maven-releases/</url>
+            <url>http://localhost:8081/repository/irctc/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://104.196.96.244:8081/repository/maven-snapshots/</url>
+            <url>http://localhost:8081/repository/irctc/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
