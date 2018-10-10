@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>CM_TOOLS</groupId>
     <artifactId>PUPPET</artifactId>
-    <version>3.06</version>
+    <version>4.0</version>
     <packaging>war</packaging>
     <name>myproj</name>
     <properties>
@@ -38,7 +38,7 @@
         <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/repository/irctc/</url>
+            <url>http://localhost:8081/repository/irctc-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
